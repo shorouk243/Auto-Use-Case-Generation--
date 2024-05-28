@@ -31,15 +31,19 @@ Export the finalized diagram in your preferred format.
 1- **Named Entity Recognition (NER):**
 
 - Utilizes spaCy’s pre-trained models to detect and classify entities in the text, such as actors and use cases.
+  
 2- **Dependency Parsing:**
 
 - Analyzes grammatical structure and relationships between words in a sentence, aiding in understanding how actors and use cases interact.
+  
 3- **Text Tokenization:**
 
 - Breaks down the input text into individual tokens (words and punctuation) using NLTK, which is the first step in the NLP pipeline.
+  
 4- **Part-of-Speech (POS) Tagging:**
 
 - Assigns parts of speech to each token using spaCy, helping to distinguish between different types of entities and actions.
+  
 5- **Relationship Extraction:**
 
 - Custom algorithms developed to identify and map relationships between actors and use cases based on the parsed text.
